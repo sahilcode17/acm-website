@@ -8,7 +8,7 @@
 
 
 svg {
-  width: 100vw;
+  width: 50vw;
 }
 
 footer {
@@ -29,7 +29,7 @@ footer {
   overflow: hidden;
   position: absolute;
   width: 100vw;
-  height: 400px;
+  height: 900px;
   bottom: 0;
   -webkit-filter: url("#goo");
           filter: url("#goo");
