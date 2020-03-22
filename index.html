@@ -27,7 +27,8 @@
   <link rel="stylesheet" href="css/card.css">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.0.0/dist/css/bootstrap.css">
   <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,500&amp;display=swap">
+    <link rel="stylesheet" href="footer.css">
   
 </head>
 
@@ -423,44 +424,29 @@
         </div>
       </div>
     </div>
-    <section id="footer" style="background-color: black;" >
-        <div class="container">
-          <div class="row text-center text-xs-center text-sm-left text-md-left">
-            <div class="col-xs-12 col-sm-4 col-md-4">
-              <h4>Quick links</h4>
-              <ul class="list-unstyled quick-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Work</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <ul class="list-unstyled list-inline social text-center">
-                  <h3>Reach Us</h3>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="https://instagram.com/acm_bu"><i class="fa fa-instagram"></i></a></li>
-                   
-                   
-                  </ul>
-                  
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <ul class="list-unstyled list-inline social text-center">
-                    <h3>WorkArea</h3>
-                    <li><a href="#">Bennett University</a></li>
-                </ul>
-                  
-            </div>
-           
-            
-          
-            
-         
-      </section>
+    <footer>
+      <div class="gooey-animations"></div>
+      <h1>ACM student Chapter <span>Bennett</span></h1>
+    </footer>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -7" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+      </defs>
+    </svg>
+    
+    
+    <svg viewbox="0 0 1440 328" width="100vw">
+        <defs>
+            <clipPath id="wave" clipPathUnits="objectBoundingBox" transform="scale(0.00069444444, 0.00304878048)">
+                <path d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z"/>
+            </clipPath>
+        </defs>
+    </svg>
   </section>
   <!--/ Section Contact-footer End /-->
 
@@ -468,6 +454,8 @@
   <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="footer.js"></script>
   <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
       <script src="https://unpkg.com/popper.js@1.12.9/dist/umd/popper.js"></script>
       <script src="https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js"></script>
@@ -487,6 +475,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
 
 </body>
 </html>
