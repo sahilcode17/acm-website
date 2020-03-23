@@ -352,7 +352,7 @@ a:hover {
 
 .socials .ico-circle:hover {
   background-color: #0078ff;
-  color: #fff;
+  color: rgb(26, 24, 24);
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
